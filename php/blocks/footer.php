@@ -8,20 +8,20 @@
             </ul>
         </div>
         <div id="col2">
-            <h2>CHSV inc.</h2>
-            <ul>
-                <li><a href="#">Об ЧСВ</a> </li>
-                <li><a href="#">Работа</a></li>
-                <li><a href="#">Пресса о нас</a></li>
-                <li><a href="#">Блог</a></li>
-                <li> <a href="#">Помощь</a></li>
-                <li> <a href="#">Правила</a></li>
-            </ul>
+            <h2><?php htmlspecialchars(S_GET['name']); ?></h2>
+<!--            <ul>-->
+<!--                <li><a href="#">Об ЧСВ</a> </li>-->
+<!--                <li><a href="#">Работа</a></li>-->
+<!--                <li><a href="#">Пресса о нас</a></li>-->
+<!--                <li><a href="#">Блог</a></li>-->
+<!--                <li> <a href="#">Помощь</a></li>-->
+<!--                <li> <a href="#">Правила</a></li>-->
+<!--            </ul>-->
         </div>
 
     </div>
     <div id="footerEnd">
-        <div class="left">Все права защищены &copy <?php echo(date('Y')); ?></div>
+        <div class="left"> &copy <?php echo(date("Y")); ?></div>
         <external class="right">
             <a href="#" style="font-size: 1.1em">Карта сайта</a>
             <a href="#"><img src="img/facebook_1.png"></a>

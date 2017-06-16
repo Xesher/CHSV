@@ -1,5 +1,7 @@
-@charset "utf-8";
-*{padding: 0px; margin: 0px; outline: none;}
+body{
+    background-color: darkblue;
+}
+*{padding: 0; margin: 0; outline: none;}
 .clear{clear: both;}
 html{width:100%;height: 100%;}
 header, nav, section, article, aside, footer {display: block}
@@ -18,18 +20,14 @@ a:hover{color:white;}
 a, a:hover{
     text-decoration: none;
     -webkit-transition: all.6s ease;
-
     transition: all.6s ease;
 }
 #parents {width:100%;height:100%;float: left;}
-
 /*------------------------------------------------------------------*/
 /*SLIDE SHOW*/
 html, body {margin: 0; padding: 0;}
 .slider {width: 100%;overflow: hidden;position: relative;height: 100%;}
-
 .slider-wrapper {width: 100%;height: 800px;position: relative;}
-
 .slide {
     float: left;
     position: absolute;
@@ -101,9 +99,15 @@ header{
 
 }
 /*logotype*/
-#logo{width:20%;height:70px;float: left;}
+#logo{
+    width:20%;
+    height:70px;
+    float: left;}
 /*Navigation*/
-nav{width:60%;height:95%;float: left;}
+nav{
+    width:60%;
+    height:95%;
+    float: left;}
 
 #headerNav  {
     font-family: 'Roboto Condensed', sans-serif;
@@ -111,11 +115,14 @@ nav{width:60%;height:95%;float: left;}
     font-size: 22px;
     float: left;
     text-align: center;
-    list-style-type:none;
+    list-style-type: none;
     width: 100%;
     height: 100%;
 }
-#headerNav li  {float: left;padding: 2.80%;display: block;}
+#headerNav li  {
+    float: left;
+    padding: 2.80%;
+    display: block;}
 
 #headerNav li a {
     text-decoration: none;
@@ -135,8 +142,12 @@ nav{width:60%;height:95%;float: left;}
 }
 /* registretion form*/
 #regAuth{width: 20%;float: left;}
-#regAuth a, p{float: left;margin:1%;margin-top:2%;}
-#regAuth aside{margin-left: 30%;font-size: 1.1em;}
+#regAuth a, p{
+    float: left;
+    margin:1%;
+    margin-top:2%;}
+#regAuth aside{margin-left: 30%;
+    font-size: 1.1em;}
 .auth-button{
     border-radius: 30px;
     display: block;
@@ -145,8 +156,8 @@ nav{width:60%;height:95%;float: left;}
     padding-left: 5%;
     padding-right: 5%;
     color: white;
-    text-shadow: #2b2d2e 1px 1px 0px;
-    box-shadow: #2b2d2e 1px 1px 0px;
+    text-shadow: #2b2d2e 1px 1px 0;
+    box-shadow: #2b2d2e 1px 1px 0;
     letter-spacing: 0.5px;
 
 }
@@ -163,14 +174,19 @@ nav{width:60%;height:95%;float: left;}
     letter-spacing: 0.5px;
 }
 .reg-button:hover{color:rgba(64, 77, 64, 0.78);}
-.regAuth-buttons{margin-top: 4%;text-align: right;margin-left: 11%;}
+.regAuth-buttons{
+    margin-top: 4%;
+    text-align: right;
+    margin-left: 11%;}
 /*---------------------------------------------------------*/
 /* Content begin*/
-#content{width: 98%;margin: 2% 0% 0% 0%;float: left; }
-#fullCont{float: left;width:85%;}
+#content{width: 98%; margin-top: 2%; float: left; }
+#fullCont{
+    float: left;
+    width:85%;}
 #fullCont img{width: 70%; height: 55%}
 #rightCont{float: left;width: 15%;}
-#rightCont .baner{width: 100%;height: auto;margin: 0px;}
+#rightCont .baner{width: 100%; height: auto; margin: 0;}
 #content .bossNews,#content .pobochNews {
     width: 80%;
     float: left;
@@ -191,7 +207,12 @@ nav{width:60%;height:95%;float: left;}
     padding-top: 1.8%;
     padding-bottom: 2%;
 }
-#content .bossNews p, #content .pobochNews p {display: inline-block; width: 80%;height: 55%;margin-left: 15%;text-align: justify;}
+#content .bossNews p, #content .pobochNews p {
+    display: inline-block;
+    width: 80%;
+    height: 55%;
+    margin-left: 15%;
+    text-align: justify;}
 #content .bossNews p a, #content .pobochNews p a {color: #3e3ed3;font-weight: 600}
 #content .bossNews img,#content .pobochNews img{
     width: 95%;
@@ -270,7 +291,7 @@ nav{width:60%;height:95%;float: left;}
     float: left;
     margin-top: 10%;
     font-family: 'Open Sans Condensed', sans-serif;
-    text-shadow: #2b2d2e 1px 1px 0px;
+    text-shadow: #2b2d2e 1px 1px 0;
     text-align: center;
 }
 .nine{margin: 2%;}
@@ -292,12 +313,12 @@ nav{width:60%;height:95%;float: left;}
 }
 .header-info a:hover{background-color: darkgray;}
 /*Кнопка возврата "как вк"*/
-/*#top-link{
+#top-link{
     cursor:pointer;
     display:none;
     position:fixed;
-    top:0px;
-    bottom:0px;
+    top:0;
+    bottom:0;
     padding-left:0.5%;
     padding-right: 1%;
     z-index:1;
@@ -313,5 +334,5 @@ nav{width:60%;height:95%;float: left;}
 }
 #top-link:hover{
     background-color:  black;
-}*/
+}
 /*----------------------------------------------------------------*/

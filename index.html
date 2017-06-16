@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html l>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- <link rel="stylesheet" type="text/css" href="style/CSSreboot.css" charset="utf-8">-->
+    <link rel="stylesheet" type="text/css" href="style/googlefontapi.css" >
+    <link rel="stylesheet" type="text/css" href="style.css" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+<div id="parents"><!--Родительский контейнер -->
+    <div class="slider" id="main-slider"><!-- outermost container element -->
+        <d><!-- Шапка сайта -->
+            <div id="header">
+                <div id="logo"><!-- Логотип -->
+                    <a href="index.html" title="logo" ><img id="headerLogo" src="/img/logo.png" alt="logo" title="logo"></a>
+                </div>
+                <nav><!--Навигация в шапке  -->
+                    <ul id="headerNav">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Помощь</a></li>
+                        <li><a href="#">Холивары</a></li>
+                        <li><a href="php/about.php">О нас</a></li>
+                    </ul>
+                </nav>
+
+                <div id="regAuth"> <!--Регистрация в шапке -->
+                    <div class="regAuth-buttons">
+                        <a href="/php/registr.php" class="reg-button" title="Регистрация" >Регистрация</a>
+                        <a href="/php/auth.php" class="auth-button">Войти</a></div>
+                </div>
+
+                <div class="header-info">
+                    <div class="nine"><h1 class="info"> Добро пожаловать</h1></div>
+                    <div class="clear"></div>
+                    <div class="nine"><span class="info">На нашем сайте, можно поднимать ЧСВ сколь угодно высоко.
+                </span></div>
+                    <div class="clear"></div>
+                    <div class="nine"><a href="#" id="buttonClass">ЗАРЕГИСТРИРОВАТЬСЯ</a></div>
+                </div>
+            </div>
+        <div class="slider-wrapper"><!-- Врапер -->
+            <div class="slide" data-image="http://pulson.ru/wp-content/uploads/2012/01/wallpaper-1118635.jpg"></div><!-- slides -->
+            <div class="slide" data-image="http://wallperz.com/wp-content/uploads/2016/07/15/ozero-1400x788.jpg"></div>
+            <div class="slide" data-image="http://wallpapersonthe.net/wallpapers/b/1920x1080/1920x1080-gray_sea_clouds-24988.jpg"></div>
+        </div>
+        <div class="slider-nav"><!-- "Previous" and "Next" actions -->
+            <button class="slider-previous">Previous</button>
+            <button class="slider-next">Next</button>
+        </div>
+    </div>
+    <!--Голова -->
+    <div id="contentBody"><!--Тело для в/сего контента -->
+        <section id="content"><!--Контент -->
+            <article id="fullCont">
+                <article class="bossNews">
+                        <img src="img/news1.jpg">
+                        <h1>Женщина получила ожог второй степени в результате возгорания iPhone 7</h1>
+                    <p> результате возгорания iPhone 7 женщина в Австралии получила ожог второй степени. Сейчас она ждет заключения экспертизы и намерена получить компенсацию от Apple.<a href="#">Читать дальше...</a> </p>
+                </article>
+                <article class="pobochNews">
+                    <img src="img/news2.jpg">
+                    <h1>Назван самый безопасный для мозга смартфон</h1>
+                    <p> Смартфоны Samsung Galaxy S7 и Galaxy S7 Edge заняли первое место в рейтинге мобильных устройств с самым низким уровнем влияния электромагнитного излучения на человеческий мозг. Об этом сообщил сайт Android Headlines со ссылкой на французское издание PhonAndroid.<a href="#">Читать дальше...</a> </p>
+                </article>
+            </article>
+        </section>
+    </div>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+    <footer id="footer" xmlns="http://www.w3.org/1999/html">
+        <div id="footerHead"><!--Подвал ака футер -->
+            <div id="col1">
+                <h2>Компания</h2>
+                <ul>
+                    <li><a href="#"> Об ЧСВ</a> </li>
+                    <li><a href="#">Работа</a></li>
+                </ul>
+            </div>
+            <div id="col2">
+                <h2></h2>
+                <!--            <ul>-->
+                <!--                <li><a href="#">Об ЧСВ</a> </li>-->
+                <!--                <li><a href="#">Работа</a></li>-->
+                <!--                <li><a href="#">Пресса о нас</a></li>-->
+                <!--                <li><a href="#">Блог</a></li>-->
+                <!--                <li> <a href="#">Помощь</a></li>-->
+                <!--                <li> <a href="#">Правила</a></li>-->
+                <!--            </ul>-->
+            </div>
+
+        </div>
+        <div id="footerEnd">
+            <div class="left"></div>
+            <external class="right">
+                <a href="#" style="font-size: 1.1em">Карта сайта</a>
+                <a href="#"><img src="img/facebook_1.png"></a>
+                <a href="#"><img src="img/instagram_1.png"></a>
+                <a href="#"><img src="img/twitter_1.png"></a>
+                <a href="#"><img src="img/vk_1.png"></a>
+            </external>
+        </div>
+    </footer><!--ФУТЕР -->
+</div>
+
+<script src="js/slide.js"></script>
+<!--[if IE]>
+<script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+</script>
+<![endif]-->
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html> ");?>
